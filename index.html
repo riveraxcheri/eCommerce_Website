@@ -10,49 +10,71 @@
 <body>
     <header>
         <nav>
-            <a href="#">CARA <img src="./assets/icons8-pottery-96.png" alt="burnt orange vase"> CARA</a>
+            <h2>
+                <a href="#">CARA<img src="./assets/icons8-pottery-96.png" 
+                    alt="burnt orange vase"
+                    width="40"
+                    height="40">CARA
+                </a>
+            </h2>
             <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>PRODUCTS</li>
-                <li>CONTACT</li>
+                <h3>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </h3>
             </ul>
-            <form method="get">
-                <input id="submitted-search">
+            <form>
+                <input type="search" name="q" placeholder="Search query"/>
             </form>
+            <section class="cart">
+                <a href>CART (0)</a>
+            </section>
         </nav>
     </header>
     <main>
         <section class="HOME">
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands molding clay pot">
-            <h1>CERAMICS CRAFTED BY HAND...</h1>
-            <h1>...FROM THE GROUND UP</h1>
+            <div class="left">
+                <h1>CERAMICS CRAFTED BY HAND...</h1>
+            </div>
+            <div class="right">
+                <h1>...FROM THE GROUND UP</h1>
+            </div>
         </section>
         
         <section class="ABOUT" id="ABOUT">
             <div>
                 <h1>ABOUT US</h1>
             </div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
-                </p>
-            </div>
-            <div>
-                <img src="./assets/Vase_Dame_2048x2048.jpg" alt="white vase with white flowered plant inside">
-            </div>
-            <div>
-                <p>
-                    Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
-                </p>
-            </div>
-            <div>
-                <p>
-                    Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
-                </p>
-            </div>
-            <div>
-                <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt="white cylinder vase with wheat inside">
+            <div class="about-layout">
+                <div>
+                    <p id="para1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.
+                    </p>
+                </div>
+                <div id="img2">
+                    <img src="./assets/Vase_Dame_2048x2048.jpg" 
+                    alt="white vase with white flowered plant inside"
+                    width="397"
+                    height="534">
+                </div>
+                <div>
+                    <p id="para2">
+                        Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
+                    </p>
+                </div>
+                <div>
+                    <p id="para3">
+                        Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
+                    </p>
+                </div>
+                <div id="img1">
+                    <img src="./assets/Cylinder_unglazed3_2048x2048.jpg" 
+                    alt="white cylinder vase with wheat inside"
+                    width="600.87"
+                    height="808">
+                </div>
             </div>
         </section>
 
@@ -62,7 +84,10 @@
             </div>
             <div class="cards">
                 <div>
-                    <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="big white bowl behind two smaller off white bowls">
+                    <img src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg" 
+                    alt="big white bowl behind two smaller off white bowls"
+                    width="398"
+                    height="398">
                     <h2>MUNDO BOWLS</h2>
                     <h2>$48.00</h2>
                     <p>
@@ -72,7 +97,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red skinny vase">
+                    <img src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg" 
+                    alt="red skinny vase"
+                    width="398"
+                    height="398">
                     <h2>NATUREZA VASE</h2>
                     <h2>$37.00</h2>
                     <p>
@@ -82,7 +110,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="two stacked white bowls">
+                    <img src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg" 
+                    alt="two stacked white bowls"
+                    width="398"
+                    height="398">
                     <h2>FEIRA BOWLS</h2>
                     <h2>$29.00</h2>
                     <p>
@@ -92,7 +123,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="two gray pots with white lids">
+                    <img src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg" 
+                    alt="two gray pots with white lids"
+                    width="398"
+                    height="398">
                     <h2>NATUREZA POTS</h2>
                     <h2>$59.00</h2>
                     <p>
@@ -102,7 +136,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white teardrop vase with eucalyptus inside">
+                    <img src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg" 
+                    alt="white teardrop vase with eucalyptus inside"
+                    width="398"
+                    height="398">
                     <h2>PEDRA VASE</h2>
                     <h2>$31.00</h2>
                     <p>
@@ -112,7 +149,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" alt="two distressed white pots with lids">
+                    <img src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg" 
+                    alt="two distressed white pots with lids"
+                    width="398"
+                    height="398">
                     <h2>VIAJA POTS</h2>
                     <h2>$57.00</h2>
                     <p>
@@ -122,7 +162,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="one white plate in front of three stacked white plates">
+                    <img src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg" 
+                    alt="one white plate in front of three stacked white plates"
+                    width="398"
+                    height="398">
                     <h2>SERVICO PLATES</h2>
                     <h2>$35.00</h2>
                     <p>
@@ -132,7 +175,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" alt="skinny blue vase">
+                    <img src="./assets/oriento-l0ah3UBLppo-unsplash.jpg" 
+                    alt="skinny blue vase"
+                    width="398"
+                    height="398">
                     <h2>CAMPEAO VASE</h2>
                     <h2>$37.00</h2>
                     <p>
@@ -142,7 +188,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div>
-                    <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" alt="two stacked white bowls behind three stacked white bowls">
+                    <img src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg" 
+                    alt="two stacked white bowls behind three stacked white bowls"
+                    width="398"
+                    height="398">
                     <h2>TROCA BOWLS</h2>
                     <h2>$25.00</h2>
                     <p>
@@ -180,29 +229,44 @@
                 <div>
                     <a href="#">
                         CARA 
-                        <img src="./assets/icons8-pottery-96 (1).png" alt="white vase">
+                        <img src="./assets/icons8-pottery-96 (1).png" 
+                        alt="white vase"
+                        width="96"
+                        height="96">
                         CARA</a>
                 </div>
                 <div>
                     <ul>
                         <li>
                             <a href>
-                                <img src="./assets/icons8-youtube-96.png" alt="youtube icon">
+                                <img src="./assets/icons8-youtube-96.png" 
+                                alt="youtube icon"
+                                width="74"
+                                height="74">
                             </a>
                         </li>
                         <li>
                             <a href>
-                                <img src="./assets/icons8-facebook-96 (1).png" alt="facebook icon">
+                                <img src="./assets/icons8-facebook-96 (1).png" 
+                                alt="facebook icon"
+                                width="74"
+                                height="74">
                             </a>
                         </li>
                         <li>
                             <a href>
-                                <img src="./assets/icons8-twitter-96.png" alt="twitter icon">
+                                <img src="./assets/icons8-twitter-96.png" 
+                                alt="twitter icon"
+                                width="74"
+                                height="74">
                             </a>
                         </li>
                         <li>
                             <a href>
-                                <img src="./assets/icons8-instagram-96.png" alt="instagram icon">
+                                <img src="./assets/icons8-instagram-96.png" 
+                                alt="instagram icon"
+                                width="74"
+                                height="74">
                             </a>
                         </li>
                     </ul>
